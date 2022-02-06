@@ -68,13 +68,10 @@ selectFirst.addEventListener('change', () => {
     }
     inp1.value = selectFirst.options[selectFirst.selectedIndex].textContent;
     inp2.value = selectSecond.options[selectSecond.selectedIndex].textContent;
-    console.log(inp1.value);
-    console.log(inp2.value);
 });
 
 selectSecond.addEventListener('change', () => {
     inp2.value = selectSecond.options[selectSecond.selectedIndex].textContent;
-    console.log(inp2.value);
 });
 
 btnFormSubmit.addEventListener('click', (e) => {
